@@ -1,0 +1,15 @@
+package org.studyeasy.shop;
+
+public class Door {
+	private Lock lock;
+	
+	class Lock {
+		private boolean lock;
+
+		public Lock(boolean lock) {
+			this.lock = lock;
+		}
+		
+		
+	}
+}

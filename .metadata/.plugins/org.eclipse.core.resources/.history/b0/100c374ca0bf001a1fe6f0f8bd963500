@@ -1,0 +1,6 @@
+package org.studyeasy.shop;
+
+public abstract class Lock {
+	abstract boolean isUnlocked(String keyCode);
+
+}

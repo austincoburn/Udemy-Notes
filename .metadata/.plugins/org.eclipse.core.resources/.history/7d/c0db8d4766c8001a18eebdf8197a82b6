@@ -1,0 +1,16 @@
+package org.studyeasy;
+
+public class App2 {
+
+	public static void main(String[] args) {
+		String[] names = {"Chann", "John", "Pooja", "Jim", "Josh"};
+
+	}
+	
+	void displayNames(String[] names) {
+		for(String name : names) {
+			System.out.println(name);
+		}
+	}
+
+}

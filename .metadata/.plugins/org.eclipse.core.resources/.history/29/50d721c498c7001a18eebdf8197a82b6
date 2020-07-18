@@ -1,0 +1,30 @@
+package org.studyeasy;
+
+import java.io.FileNotFoundException;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		try {
+			someMethod();
+		} catch (FileNotFoundException e) {
+			System.out.println("Catch block of main method");
+		} catch (Exception e) {
+			System.out.println("Catch block of Exception in main");
+		}
+	}
+
+	public static void someMethod() throws Exception {
+		int x = 1;
+		
+		switch(x) {
+			case 1 :
+				throw new FileNotFoundException();
+				break;
+			case 2 :
+				throw new Exception();
+		}
+	}
+	
+}

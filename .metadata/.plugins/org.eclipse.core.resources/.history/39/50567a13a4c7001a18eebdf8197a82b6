@@ -1,0 +1,26 @@
+package org.studyeasy;
+//Enum is a collection of predefined constants
+
+public class App {
+
+
+	public static void main(String[] args) {
+		
+		Learning learn = 25;
+		
+		switch(learn) {
+		case COREJAVA:
+			break;
+		case COLLECTIONS:
+			break;
+		case GENERICS:
+			break;
+		case JSPANDSERVLETS:
+			break;
+		case MULTITHREADING:
+			break;
+		default:
+			break;
+		}
+}
+}

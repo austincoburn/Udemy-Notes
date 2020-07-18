@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="S05L01 - Switch case/src"/>
+	<classpathentry kind="src" path="S05L02 - Switch case part 2/src"/>
+	<classpathentry kind="src" path="S05L03 - Switch case part 3/src"/>
+	<classpathentry kind="src" path="S05L04 - For loop/src"/>
+	<classpathentry kind="src" path="S05L05 - For loop (Number is prime or not)/src"/>
+	<classpathentry kind="src" path="S05L06 - While loop/src"/>
+	<classpathentry kind="src" path="S05L07 - Do while loop/src"/>
+	<classpathentry kind="src" path="S05L08 - Loops Revisited/src"/>
+	<classpathentry kind="src" path="S05L09 - Break and continue/src"/>
+	<classpathentry kind="src" path="S05L10 - Nested loops/src"/>
+	<classpathentry kind="src" path="S05L11 - Nested loops - exercise/src"/>
+	<classpathentry kind="output" path="S05L01 - Switch case/bin"/>
+</classpath>

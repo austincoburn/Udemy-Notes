@@ -1,0 +1,48 @@
+package org.studyeasy.shop;
+
+public class Person {
+	String breathe;
+	Student student;
+	
+
+	public Person() {
+		student = new Student();
+		breathe = "I am breathing";
+	}
+	
+	public Student getStudent() {
+		return student;
+	}
+	
+	
+	
+	public class Student {
+		int age;
+		String classs;
+		
+		public Student() {
+			age = 9;
+			classs = "Biology";
+			
+		}
+		
+		public void setAge(int age) {
+			this.age = age;
+		}
+		
+		public void setClass(String classs) {
+			this.classs = classs;
+		}
+
+		public int getAge() {
+			return age;
+		}
+
+		public String getClasss() {
+			return classs;
+		}
+		
+		
+	
+	}
+}

@@ -1,0 +1,23 @@
+package org.studyeasy;
+
+import org.studyeasy.testrun.TestStatic;
+
+public class App {
+
+	public static void main(String[] args) {
+		TestStatic obj1 = new TestStatic();
+		System.out.println("Obj1 current variable value : " + obj1.getStaticVariable());
+		obj1.setStaticVariable(1);
+		System.out.println("Obj1 current variable value : " +obj1.getStaticVariable());
+		
+		TestStatic obj2 = new TestStatic();
+		System.out.println("Obj2 current variable value : " + obj1.getStaticVariable());
+		obj2.setStaticVariable(24);
+		System.out.println("Obj2 current variable value : " + obj1.getStaticVariable());
+
+		TestStatic obj3 = new TestStatic();
+		System.out.println("Obj3 current variable value : " + obj1.getStaticVariable());
+
+	}
+
+}

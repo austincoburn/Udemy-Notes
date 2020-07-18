@@ -1,0 +1,16 @@
+package org.studyeasy;
+
+
+public class App {
+
+	public static void main(String[] args) {
+		org.studyeasy.blog.Java blog = new org.studyeasy.blog.Java();
+		blog.usedFor();
+		
+	
+		org.studyeasy.platform.Java platform = new org.studyeasy.platform.Java();
+		platform.usedFor();
+		
+	}
+
+}

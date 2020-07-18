@@ -1,0 +1,16 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		int x = 10, y;
+		
+		y = x / 0;
+		
+		System.out.println(y);
+		
+//arithmetic exception is an unchecked exception
+	}
+
+}

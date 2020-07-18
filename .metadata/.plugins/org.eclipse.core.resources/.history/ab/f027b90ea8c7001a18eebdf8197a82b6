@@ -1,0 +1,14 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		String x = "Study";
+		String y = "Easy";
+		String z = x + y;
+		
+		System.out.println(z);
+
+	}
+
+}

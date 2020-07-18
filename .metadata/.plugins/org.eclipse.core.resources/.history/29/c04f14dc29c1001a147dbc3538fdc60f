@@ -1,0 +1,91 @@
+package org.revature.animals;
+
+import org.revature.interfaces.Walk;
+
+public class Animal {
+	private int age;
+	private String type;
+	private Alive alive;
+	
+	Walk walk = new Walk() {
+		boolean walker;
+		@Override
+		public boolean canWalk() {
+			// TODO Auto-generated method stub
+			return false;
+		}
+		
+	};
+	
+	
+	
+	
+
+	public Animal(int age, String type) {
+		this.age = age;
+		this.type = type;
+		alive = new Alive();
+
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+
+
+	public String getType() {
+		return type;
+	}
+
+
+
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+
+	 public Alive getAlive() {
+		return alive;
+	}
+
+
+	 public class Alive {
+		boolean breathe;
+
+		public Alive() {
+			breathe = false;
+		}
+
+		public boolean isBreathe() {
+			return breathe;
+		}
+
+		public void setBreathe(boolean breathe) {
+			this.breathe = breathe;
+		}
+
+		public boolean isAlive() {
+			if (isBreathe() == false) {
+				System.out.println("this animal is dead!");
+				System.out.println("Also this animals age was : " + getAge());
+				return isBreathe();
+			} else {
+				System.out.println("This animal is alive!");
+				return isBreathe();
+			}
+
+		}
+
+	}
+
+}

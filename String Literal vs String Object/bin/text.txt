@@ -1,0 +1,39 @@
+
+****STRING LITERALS*****
+String str1 = "Hello World!!!";
+
+The value is stored in Heap Memory
+
+has a address location on a stack
+
+321 (location) 
+
+String str2 = "Hello World!!!";
+BOTH would point to 321 location (java will optimize code)
+
+-memory location is the same
+
+
+*****String Object*****
+String str3 = new String("Hello World!!");
+
+741 location
+
+String str4 = new String("Hello World!!");
+
+943 location
+
+when doing str3 == str4 will be FALSE
+
+
+
+---------------------------------------------
+
+.equals should be used to compare strings
+
+USE STRING LITERALS USUALLY. (due to code optimization)
+
+
+
+
+

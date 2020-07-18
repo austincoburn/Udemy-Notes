@@ -1,0 +1,5 @@
+package org.studyeasy.parent;
+
+public class A {
+	private int x = 10;
+}

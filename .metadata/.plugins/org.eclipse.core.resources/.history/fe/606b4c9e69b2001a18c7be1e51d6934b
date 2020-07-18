@@ -1,0 +1,25 @@
+package org.studyeasy;
+
+public class Hello {
+
+	
+	//Methods can be called numerous times and can be used unlimited times
+	public static void main(String[] args) {
+		
+		loop1();
+		System.out.println("*******************");
+	
+	}
+	
+	public static void loop1() {
+		int i = 1;
+		
+		while (i<=10) {
+			System.out.println(i);
+			i++;
+		}
+	}
+	
+
+
+}

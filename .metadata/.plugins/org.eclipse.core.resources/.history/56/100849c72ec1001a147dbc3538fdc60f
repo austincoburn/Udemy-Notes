@@ -1,0 +1,24 @@
+package org.revature;
+
+import org.revature.animals.Animal;
+import org.revature.animals.Animal.Alive;
+import org.revature.interfaces.Walk;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Animal animal = new Animal(23, "Dragon", 3);
+		
+		animal.getAlive().setBreathe(false);
+		animal.getAlive().isAlive();
+		animal.getWalk().canWalk();
+		
+		animal.setLegs(0);
+		
+		
+		
+		
+		
+	}
+
+}

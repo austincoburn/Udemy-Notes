@@ -1,0 +1,46 @@
+package org.studyeasy;
+
+import java.util.Scanner;
+
+import org.studyeasy.shop.Door;
+import org.studyeasy.shop.Person;
+import org.studyeasy.shop.Person.Student;
+
+public class Shop {
+	
+
+	public static void main(String[] args) {
+		
+		Person person = new Person();
+		Person.Student study = person.new Student();
+		
+		
+		System.out.println(study);
+		study.setAge(23);
+		System.out.println(theMan.getAge());
+		
+		
+		
+		
+		Door door = new Door();
+		System.out.println(door.getLock().getHandle());
+		door.getLock().theHandle();
+		door.getLock().setHandle("Purple");
+		door.getLock().theHandle();
+	
+
+	
+		
+		
+		
+		
+		
+		/*
+		 * System.out.println("My age is: " + student.getAge() + " and my class is: " +
+		 * student.getClasss()); student.setAge(39); student.setClass("Gym class");
+		 * System.out.println("My age is: " + student.getAge() + " and my class is: " +
+		 * student.getClasss());
+		 */
+	}
+
+}

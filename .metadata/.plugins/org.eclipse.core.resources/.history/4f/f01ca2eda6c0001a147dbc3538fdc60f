@@ -1,0 +1,19 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		int x;
+		
+		try {
+			System.out.println("The statement will not get executed");
+			x = 10/0;
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Inside exception block");
+		}
+
+	}
+
+}

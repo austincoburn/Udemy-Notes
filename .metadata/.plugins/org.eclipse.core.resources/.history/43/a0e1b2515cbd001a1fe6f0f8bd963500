@@ -1,0 +1,23 @@
+package org.studyeasy.shop;
+
+public class Door {
+	private Lock lock;
+	
+	class Lock {
+		private boolean lock;
+
+		public Lock(boolean lock) {
+			this.lock = lock;
+		}
+
+		public boolean isLock() {
+			return lock;
+		}
+
+		public void setLock(boolean lock) {
+			this.lock = lock;
+		}
+		
+		
+	}
+}

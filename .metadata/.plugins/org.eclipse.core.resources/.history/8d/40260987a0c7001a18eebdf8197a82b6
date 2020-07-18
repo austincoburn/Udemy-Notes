@@ -1,0 +1,29 @@
+package org.studyeasy;
+
+import java.io.FileReader;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * int x = 10, y;
+		 * 
+		 * y = x / 0;
+		 * 
+		 * System.out.println(y);
+		 */
+		
+//arithmetic exception is an unchecked exception
+		
+		
+		
+		//Checked exception : Needs to be handled
+		
+		FileReader in = new FileReader("txt");
+		
+		
+		
+	}
+
+}

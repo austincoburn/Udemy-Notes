@@ -1,0 +1,18 @@
+package org.studyeasy.demo;
+
+public class Outer {
+	
+	private static void testOuterMethod() {
+		System.out.println("From outer method");
+	}
+	
+	public static class Inner {
+		
+		public static int x = 0;
+		
+		public static void testingInnerMethod() {
+			System.out.println("Testing inner method");
+			
+		}
+	}
+}

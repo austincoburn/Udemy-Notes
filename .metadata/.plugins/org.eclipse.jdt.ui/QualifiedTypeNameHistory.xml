@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.studyeasy.phone.SamsungNote8"/>
+<fullyQualifiedTypeName name="org.studyeasy.phone.Nokia"/>
+<fullyQualifiedTypeName name="org.studyeasy.Hello"/>
+<fullyQualifiedTypeName name="org.studyeasy.phone.OnePlus5"/>
+<fullyQualifiedTypeName name="org.studyeasy.phone.Phone"/>
+<fullyQualifiedTypeName name="org.studyeasy.phone.IPhone8"/>
+<fullyQualifiedTypeName name="org.studyeasy.person.NonVegan"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.studyeasy.shop.Person.Student"/>
+<fullyQualifiedTypeName name="org.studyeasy.shop.Door.Lock"/>
+<fullyQualifiedTypeName name="org.studyeasy.testrun.TestStatic"/>
+<fullyQualifiedTypeName name="org.studyeasy.demo.Outer"/>
+<fullyQualifiedTypeName name="org.studyeasy.demo.Outer.Inner"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler"/>
+<fullyQualifiedTypeName name="org.studyeasy.blog.Java"/>
+<fullyQualifiedTypeName name="org.studyeasy.platform.Java"/>
+<fullyQualifiedTypeName name="org.studyeasy.parent.A"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="org.revature.animals.Animal.Alive"/>
+<fullyQualifiedTypeName name="org.revature.interfaces.Walk"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+</qualifiedTypeNameHistroy>

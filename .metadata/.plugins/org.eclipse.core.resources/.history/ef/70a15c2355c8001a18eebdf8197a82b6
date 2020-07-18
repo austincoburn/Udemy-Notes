@@ -1,0 +1,15 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		int[] intVariable = {4,5,5};
+		
+		
+		System.out.println(intVariable);
+		
+		
+
+	}
+
+}

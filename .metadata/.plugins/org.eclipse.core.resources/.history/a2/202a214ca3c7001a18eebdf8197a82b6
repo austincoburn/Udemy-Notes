@@ -1,0 +1,4 @@
+package org.studyeasy;
+//List of constants
+public enum Enum {
+	COREJAVA, COLLECTIONS, GENERICS, JSPANDSERVLETS, MULTITHREADING

@@ -1,0 +1,26 @@
+package org.studyeasy;
+
+public class App2 {
+
+	
+	//Call by reference
+		//Passing in the reference as a parameter
+	public static void main(String[] args) {
+		String[] names = {"Chann", "John", "Pooja", "Jim", "Josh"};
+		App2 app2 = new App2();
+
+		app2.displayNames(names);
+		
+		System.out.println(names[0]);
+
+	}
+	
+	void displayNames(String[] names) {
+		names[0] = "Salim";
+		for(String name : names) {
+			System.out.println(name);
+		}
+		names[0] = "Salim";
+	}
+
+}

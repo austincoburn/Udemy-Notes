@@ -1,0 +1,16 @@
+package org.studyeasy;
+
+public class App {
+	static int i = 100;
+
+	public static void main(String[] args) {
+		
+	
+		 { int j = 10;
+			System.out.println(i);
+		}
+		System.out.println(i);
+
+	}
+
+}

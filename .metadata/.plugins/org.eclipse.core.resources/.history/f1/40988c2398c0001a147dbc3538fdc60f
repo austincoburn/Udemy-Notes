@@ -1,0 +1,23 @@
+package org.studyeasy;
+
+public class B extends A {
+	private final int x = 1;
+	
+	public B(int x) {
+		super();
+		this.x = x;
+	}
+
+	public int getX() {
+		return x;
+	}
+
+	@Override
+	public void india() {
+		System.out.println("Hello India, What's up");
+	}
+	
+	
+
+
+}

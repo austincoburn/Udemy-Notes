@@ -1,0 +1,19 @@
+package org.studyeasy.shop;
+
+public class Person {
+	int age;
+	
+	public Person() {
+		Student student = new Student();
+		age = 5;
+	}
+	
+	public class Student {
+	
+		public Student() {
+			age = 9;
+		}
+		
+		
+	}
+}

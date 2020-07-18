@@ -1,0 +1,30 @@
+package org.studyeasy.shop;
+
+public class Person {
+	Student student;
+	
+	public Student getStudent() {
+		return student;
+	}
+
+
+
+	public Person() {
+		Student student = new Student();
+	}
+	
+	
+	
+	public class Student {
+		int age;
+		
+		public Student() {
+			age = 9;
+		}
+		
+		public void setAge(int age) {
+			this.age = age;
+		}
+	
+	}
+}

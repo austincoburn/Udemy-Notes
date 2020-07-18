@@ -1,0 +1,5 @@
+package org.studyeasy;
+
+public class B extends A {
+	private int x = 5;
+}

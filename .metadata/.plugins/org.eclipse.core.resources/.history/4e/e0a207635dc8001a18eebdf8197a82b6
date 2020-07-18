@@ -1,0 +1,12 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		String[] sringArray = {"Chaand", "John", "Pooja", "Mia"};
+		
+		System.out.println(stringArray[0]);
+
+	}
+
+}

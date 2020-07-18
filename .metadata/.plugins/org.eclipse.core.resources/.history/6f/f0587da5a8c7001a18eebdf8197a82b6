@@ -1,0 +1,21 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		String x = "Study";
+		String y = "Easy";
+		String z = x.concat(y);
+		
+		z = z.replace("asy", "hard");
+
+		System.out.println(z);
+
+		if (z.equals("StudyEasy")) {
+			System.out.println("Text is Studyeasy");
+		} else {
+			System.out.println("Text is not studyeasy");
+		}
+	}
+
+}

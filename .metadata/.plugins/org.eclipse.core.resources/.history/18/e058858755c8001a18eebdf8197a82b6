@@ -1,0 +1,16 @@
+package org.studyeasy;
+
+public class App {
+
+	public static void main(String[] args) {
+		int[] intVariable;
+		intVariable = new int[10];
+		
+		
+		intVariable[5] = 10;
+		intVariable[11] = 10;
+		System.out.println(intVariable[5]);
+
+	}
+
+}
