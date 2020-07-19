@@ -1,5 +1,0 @@
-package org.studyeasy.testrun;
-
-public class TestStatic {
-	int staticVariable = 0;
-}

@@ -12,6 +12,8 @@ public class App2 {
 		app2.displayNames(names);
 		System.out.println("*********************");
 		System.out.println(names[0]);
+		
+		
 
 	}
 	
