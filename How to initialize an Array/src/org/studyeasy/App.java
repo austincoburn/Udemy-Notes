@@ -10,7 +10,7 @@ public class App {
 		
 		System.out.println(floatVariable[2]);
 		
-		float[] floatVariable1 = new float[23232];
+		float[] floatVariable1 = new float[] {};
 		
 
 	}
