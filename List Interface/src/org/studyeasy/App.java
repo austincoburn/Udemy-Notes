@@ -92,6 +92,9 @@ public class App {
 		people.add(new People("John", 4));
 		people.add(new People("Carla", 23));
 		people.add(new People("Brian", 51));
+		
+		
+		
 		System.out.println("Here is the top element: " + people.pop());
 		app.printTheList(people);
 		System.out.println("------------------");
