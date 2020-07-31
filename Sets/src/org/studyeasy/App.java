@@ -8,6 +8,17 @@ import java.util.Set;
  * - Cant access by index
  * Duplicates do not exists in set
  * 
+ * HASHSET - Doesn't guarantee any order
+ * 	- Allows ONE null key
+ *  - Fastest for common operation e.g. add, search and remove
+ *  
+ *LinkeHashSet - Keep elements in the order they are added
+ *	- allows one null key
+ *	- It's close second
+ *
+ *TreeSet - Sorts all object
+ *	- Doesn't allow null keys
+ *	- TreeSet is MUCH slower because it needs to perform sorting
  * 
  * 
  * 
