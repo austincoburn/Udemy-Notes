@@ -34,6 +34,8 @@ public class App {
 		set.add("Jim");
 		set.add("Chaand");
 		set.add("Jenna");
+		Object[] arrayVersion = set.toArray();
+		System.out.println(arrayVersion[1]);
 		
 		for (String name : set) {
 			System.out.println(name);

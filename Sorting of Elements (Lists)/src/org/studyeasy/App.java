@@ -27,6 +27,7 @@ public class App {
 		System.out.println("******************");
 		Collections.reverse(countries); //this works because Collections is a superclass for List
 		app.printList(countries);
+		app.printTheList(countries);
 		
 		
 	}
@@ -35,6 +36,12 @@ public class App {
 		ListIterator<String> iterator = list.listIterator();
 		while (iterator.hasNext()) {
 			System.out.println("Element: " + iterator.next());
+		}
+	}
+	
+	public void printTheList(List<String> e) {
+		for(String element : e) {
+			System.out.println(element);
 		}
 	}
 	
